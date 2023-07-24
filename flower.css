@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+}
+
+.btn-header {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-right: 97px;
+}
+
+.header-content {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    margin: 0px 171px 32px 0px;
+}
+
+.banner-image {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
