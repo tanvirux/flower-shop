@@ -81,10 +81,6 @@ body {
     flex-direction: column;
 }
 
-.pink {
-    margin: 110px 78px 0px 76px;
-}
-
 .image-pink {
     color: #272727;
     text-align: center;
@@ -94,6 +90,11 @@ body {
     text-decoration-line: underline;
     margin-top: 32px;
 }
+
+.pink {
+    margin: 110px 78px 0px 76px;
+}
+
 
 .image-container-red {
     border-radius: 300px 300px 0px 0px;
@@ -292,9 +293,11 @@ span {
     line-height: 30px;
     margin-top: 24px;
 }
-.media-image{
+
+.media-image {
     display: flex;
 }
+
 .ash {
     width: 342px;
     height: 396px;
@@ -328,4 +331,75 @@ span {
     flex-shrink: 0;
     margin-top: 14px;
     margin-left: 0px;
+}
+
+/* subscribe details */
+.latest-deals-back {
+
+    margin-top: 128px;
+    align-content: center;
+    margin-left: 180px;
+
+}
+
+.latest-deals-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 100px;
+
+}
+
+.latest-deals-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Footer */
+.footer {
+    height: 290px;
+    flex-shrink: 0;
+    background: #111010;
+    padding-top: 80px;
+}
+
+.footer-name {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
 }
