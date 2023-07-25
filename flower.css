@@ -81,7 +81,13 @@ body {
     flex-direction: column;
 }
 
-.image-pink {
+
+.pink-image {
+    margin: 110px 78px 0px 76px;
+
+}
+
+.pink-image-name {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -90,11 +96,6 @@ body {
     text-decoration-line: underline;
     margin-top: 32px;
 }
-
-.pink {
-    margin: 110px 78px 0px 76px;
-}
-
 
 .image-container-red {
     border-radius: 300px 300px 0px 0px;
@@ -107,23 +108,24 @@ body {
     flex-direction: column;
 }
 
-.red {
+.red-image {
     margin: 117px 47px 51px 47px;
 }
 
-.image-red {
+.red-image-name {
     color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    margin-top: 32px;
 }
 
 
 .image-container-yellow {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background: rgba(71, 125, 17, 0.15);
     width: 464px;
     height: 538px;
     flex-shrink: 0;
@@ -143,6 +145,7 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    margin-top: 32px;
 }
 
 /* Unique Feature section */
@@ -229,7 +232,7 @@ body {
     margin-bottom: 24px;
 }
 
-span {
+.highlighted {
     color: #E55473;
     font-family: Lato;
     font-size: 40px;
@@ -334,13 +337,7 @@ span {
 }
 
 /* subscribe details */
-.latest-deals-back {
 
-    margin-top: 128px;
-    align-content: center;
-    margin-left: 180px;
-
-}
 
 .latest-deals-title {
     color: #272727;
@@ -348,7 +345,8 @@ span {
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
+    padding-top: 122px;
 
 }
 
@@ -358,6 +356,53 @@ span {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.subscribe-details {
+    display: flex;
+}
+
+.subscribe-entry {
+    margin-left: 350px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 290px;
+    margin-right: 20px;
+}
+
+.btn-subscribe {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subscribe {
+    border-radius: 8px;
+    background: url('images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-bottom: 128px;
+    margin-top: 128px;
+    margin-left: 165px;
+}
+
+.enter-email {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 22px;
 }
 
 /* Footer */
